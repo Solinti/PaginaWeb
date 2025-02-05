@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.logo img{
+    height: 100;
+    width: 200px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+.contacto {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+   
+}
+.contacto a{
+    text-decoration: none;
+}
+.icon {
+    font-size: 18px;
+}
+
+.banner img {
+    height: 500px ;
+    width: 100%;
+
+}
+
+.imagen-fondo {
+    background-color: #f8f3f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.informacion-contacto {
+    color: #1b1919;
+    width: 60%;
+    padding: 150px;
+    font-family: "Manrope", serif;
+    font-size:x-large;   
+}
+
+.informacion-contacto p{
+    margin-bottom: 20px;
+}
+
+.formulario-contacto {
+    width: 40%;
+    padding: 50px;
+    color: #111010;
+    font-weight: bold;
+    font-size: large;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+   
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.ubicacion {
+    background-color: wheat;
+    padding-top: 1px;
+}
+
+.tituloMapa{
+    text-align: center;
+    margin: 10px;
+}
+
+.mapa{
+    width: 100%;
+    height: 700px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-redes img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.footer-redes img:hover {
+    transform: scale(1.2);
+}
+
+.footer-copy {
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.7;
+}
+
